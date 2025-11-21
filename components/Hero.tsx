@@ -24,21 +24,21 @@ const Hero = () => {
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw] z-50" fill="blue" />
 
      </div>
-      <div className="relative flex h-screen w-full items-center justify-center bg-white 
+      <div className="relative flex h-screen w-full items-center justify-center bg-black100
       dark:bg-black100">
       <div
         className={cn(
           "absolute inset-0",
           "[background-size:40px_40px]",
-          "[background-image:linear-gradient(to_right,#C0C0FA_1px,transparent_1px),linear-gradient(to_bottom,#C0C0FA_1px,transparent_1px)]",
+          "[background-image:linear-gradient(to_right,#FFFFFF20_1px,transparent_1px),linear-gradient(to_bottom,#FFFFFF20_1px,transparent_1px)]",
           "dark:[background-image:linear-gradient(to_right,#26262633_1px,transparent_1px),linear-gradient(to_bottom,#26262633_1px,transparent_1px)]",
         )}
 
       />
        
       <div className="pointer-events-none absolute inset-0 flex items-center 
-      justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] 
-      dark:bg-black100"></div>
+      justify-center  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] 
+    bg-black100 dark:bg-black100"></div>
       <div className="flex justify-center my-20 relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Dynamic Porfolio Project With Next.js</h2>
